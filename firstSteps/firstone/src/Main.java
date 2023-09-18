@@ -4,8 +4,10 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Intro with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-
+        int par = 0;
+        for (int i = 2; i <= 100; i += 2){
+            par += i;
+        }
+        System.out.println("La suma de los numeros pares del uno al cien es:" + par);
     }
 }
